@@ -28,7 +28,6 @@ def check_guess(guess):
     print(f"Sorry, {guess} is not in the word. Try again.")
 
 #ask for input function
-
 def ask_for_input():
   while True:
     guess = input(f"Enter a single letter: ")
@@ -37,4 +36,4 @@ def ask_for_input():
     else:
       print("Oops! That is not a valid input.")
   check_guess(guess)
-ask_for_input()
+ask_for_input() 
