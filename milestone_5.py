@@ -1,7 +1,7 @@
 import random
 
 # Assigning the fruits to a variable
-word_list = ["apple", "banana", "grapes", "orange", "mango"]
+word_list = ["india", "bangladesh", "england", "pakistan", "australia"]
 
 #Random word assignment
 word = random.choice(word_list)
@@ -58,12 +58,10 @@ class Hangman:
                 game.word_guessed
                 print(game.word_guessed)
                 game.num_letters
-                print(num_lives)
-                print(game.num_letters)
                 game.ask_for_input()
             else:
                 print("Congratulations. You won the game!")
                 print(f"The word is {word}.")
                 break
             
-Hangman.play_game(word_list, ["apple", "banana", "grapes", "orange", "mango"])
+Hangman.play_game(word_list, ["india", "bangladesh", "england", "pakistan", "australia"])
